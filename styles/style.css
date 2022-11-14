@@ -5,6 +5,7 @@
     --gray: #fafafa;
     --dark-gray: #d1d1d1;
     --light-blue: #30A8F2;
+    --orange: #ffe282; /*ffc404*/
     --white: #FFFFFF;
 }
 
@@ -223,12 +224,72 @@ nav div {
     border-radius: 5px;
 }
 
+/*about*/
+.our_team {
+    display: flex;
+    padding: 4rem 15%;
+    background-color: var(--dark-gray);
+}
+
+.our_team > div {
+    width: 50%;
+}
+
+.our_team--title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.our_team img {
+    margin-left: 25%;
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.our_team__link {
+    color: var(--red);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 4.7em 7%;
+}
+
+footer img {
+    width: 28px;
+}
+
+.information__title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.information__license {
+    padding-top: 20px;
+}
+
+.contact div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 @media screen and (max-width: 1000px) {
     .navigation__mobile {
         display: inline;
     }
     .navigation > a {
         display: none;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -253,9 +314,7 @@ nav div {
     .about__content {
         font-size: 1rem;
     }
-    .services__content--text p {
-        font-size: 1rem;
-    }
+
     h3 {
         font-size: 1.8em;
     }

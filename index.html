@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="University Residence UX Team">
-    <meta name="description" content="University Residence Official Landing Page">
-    <meta name="keywords" content="University Residence, Studio, Mobile Apps, Startup">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="University Residence UX Team" />
+    <meta name="description" content="University Residence Official Landing Page" />
+    <meta name="keywords" content="University Residence, Studio, Mobile Apps, Startup" />
 
     <title>Universitary residence</title>
-    <link rel="shortcut icon" href="resources/icons/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="resources/icons/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
     <div class="menu">
-        <div><a href="#about">acerca de</a></div>
+        <div><a href="#">acerca de</a></div>
         <div><a href="#services">servicios</a></div>
         <div><a href="#ourteam">nosotros</a></div>
         <div><a href="#contact">contacto</a></div>
     </div>
     <nav>
-        <img src="resources/icons/logo.ico" alt="Logo universitary residence">
+        <img src="resources/icons/logo.ico" alt="Logo universitary residence" />
         <div class="navigation">
-            <a href="#about">acerca de</a>
+            <a href="#">acerca de</a>
             <a href="#services">servicios</a>
             <a href="#ourteam">nosotros</a>
             <a href="#contact">contacto</a>
-            <div class="navigation__get_start"><a href="">empezar ahora</a></div>
+            <div class="navigation__get_start"><a href="https://university-residence.netlify.app/">empezar ahora</a></div>
 
             <div class="navigation__mobile">
                 <span class="line1__navigation"></span>
@@ -39,43 +41,86 @@
         <section class="hero">
             <div class="hero__content">
                 <h1 class="hero__content--title">universitary<b>residence</b></h1>
-                <p class="hero__content--description">Encontrar una habitación nunca fue tan fácil</p>
-                <div class="hero__content--footer"><a href="">Revisa una demo del producto</a></div>
+                <p class="hero__content--description">
+                    Encontrar una habitación nunca fue tan fácil
+                </p>
+                <div class="hero__content--footer">
+                    <a href="">Revisa una demo del producto</a>
+                </div>
             </div>
         </section>
         <section class="services">
-            <h2 class="services--title">Tenemos muchas opciones para ti</h2>
+            <h2 class="services--title" id="services">Tenemos muchas opciones para ti</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="resources/images/habitacion01.jpg" alt="habitacion amoblada">
+                    <img src="resources/images/habitacion01.jpg" alt="habitacion amoblada" />
                     <div class="card__content">
                         <h4 class="card-title">Habitación amoblada</h4>
                         <p class="card-place">Santiago de Surco, Lima</p>
                         <p class="card-price">S/. 750</p>
-                        <span class="card-more">Más información</span> 
+                        <span class="card-more">Más información</span>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="resources/images/habitacion02.jpg" alt="habitacion sin amoblar">
+                    <img src="resources/images/habitacion02.jpg" alt="habitacion sin amoblar" />
                     <div class="card__content">
                         <h4 class="card-title">Habitación sin amoblar</h4>
                         <p class="card-place">Jesús María, Lima</p>
                         <p class="card-price">S/. 350</p>
-                        <span class="card-more">Más información</span> 
+                        <span class="card-more">Más información</span>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="resources/images/habitacion03.jpg" alt="habitacion amoblada">
+                    <img src="resources/images/habitacion03.jpg" alt="habitacion amoblada" />
                     <div class="card__content">
                         <h4 class="card-title">Habitación con balcón</h4>
                         <p class="card-place">Miraflores, Lima</p>
                         <p class="card-price">S/. 1200</p>
-                        <span class="card-more">Más información</span> 
+                        <span class="card-more">Más información</span>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="our_team">
+            <div>
+                <h2 class="our_team--title" id="ourteam">Nosotros</h2>
+                <div class="spacer" style="background-color: #000"></div>
+                <p class="roboto">
+                    Somos CoWorkers, el equipo desarrollador de la aplicación Universitary Residence.
+                    Nuestro startup nació de cinco alumnos de Ingeniería de software del
+                    septimo semestre, todo para crear Universitary Residence, la aplicación que tú
+                    ya conoces, que te ayudará a encontrar la mejor habitación para ti. <br />
+                    ¿Quieres conocer nuestra experiencia creando Universitary Residence?
+                </p>
+                <a class="our_team__link" href="#">Mira nuestro vídeo de presentación -></a>
+            </div>
+            <div>
+                <img src="resources/images/team.jpg" alt="equipo" />
+            </div>
+        </section>
+        <footer>
+            <div class="information" id="contact">
+                <div class="information__title">Universitary Residence</div>
+                <div class="information__description">“Encontrar una habitación nunca fue tan fácil”</div>
+                <div class="information__license">© 2022 CoWorker, inc. All Rights Reserved</div>
+            </div>
+            <div class="contact">
+                <div class="contact__location">
+                    <img src="resources/icons/location_on_FILL0_wght400_GRAD0_opsz48.svg" alt="location">
+                    <span>Prolongación Primavera 2390, Lima 15023</span>
+                </div>
+                <div class="contact__phone">
+                    <img src="resources/icons/call_FILL0_wght400_GRAD0_opsz48.svg" alt="call">
+                    <span>+51 985080808</span>
+                </div>
+                <div class="contact__mail">
+                    <img src="resources/icons/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="mail">
+                    <span>universitaryresidence@coworker.pe</span>
+                </div>
+            </div>
+        </footer>
     </section>
     <script src="js/app.js"></script>
 </body>
+
 </html>
